@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HexComponent implements OnInit {
 
   hex = [0, 1, 2, 3, 4, 5, 6, 7, 8 , 9, 'A', 'B', 'C', 'D', 'E', 'F'];
-  currentBgColor = '#f1f5f8';
+  currentBgColor = '#F1F5F8';
 
   constructor() { }
 
