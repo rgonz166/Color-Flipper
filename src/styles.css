@@ -106,7 +106,7 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 815px) {
   h1 {
     font-size: 4rem;
   }
@@ -233,4 +233,14 @@ main {
 .btn-hero:hover {
   color: var(--clr-white);
   background: var(--clr-black);
+}
+
+@media screen and (max-width: 380px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .btn-hero {
+    font-size: .8rem;
+  }
 }
