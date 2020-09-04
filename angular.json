@@ -117,8 +117,13 @@
               "devServerTarget": "Color-Flipper:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Color-Flipper"
 }
