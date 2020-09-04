@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HexComponent } from './hex/hex.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { RgbComponent } from './rgb/rgb.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HexComponent,
-    NavbarComponent
+    NavbarComponent,
+    RgbComponent
   ],
   imports: [
     BrowserModule,
