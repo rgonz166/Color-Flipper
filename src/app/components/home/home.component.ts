@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   constructor(private colorService: ColorsService) { }
 
   ngOnInit(): void {
-    this.currentBgColor = this.colorService.defaultColor;
+    this.currentBgColor = this.colorService.nameColor;
   }
 
   clickedButton() {
